@@ -1,0 +1,18 @@
+{
+    "extends": ["airbnb-base/legacy"],
+    "rules": {
+        "no-underscore-dangle": "off",
+        "object-curly-spacing": ["error", "never"],
+        "no-param-reassign": "warn",
+        "dot-notation": "off",
+        "no-unused-vars": "warn",
+        "no-new": "warn"
+    },
+    "globals": {
+        "jQuery": true,
+        "turf": true,
+        "MapboxDraw": true,
+        "mapboxgl": true,
+        "eegle": true,
+    }
+}
