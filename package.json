@@ -1,8 +1,8 @@
 {
   "name": "mapbox-superset",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A bunch of extra functionality for mabox-gl-js.",
-  "main": "dist/js/bundle.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "./node_modules/.bin/jest --coverage",
     "build": "./node_modules/.bin/webpack --progress --config ./config/webpack.config.js",
