@@ -7,5 +7,6 @@
         "dot-notation": "off",
         "no-unused-vars": "warn",
         "no-new": "warn"
-    }
+    },
+    "parser": "babel-eslint"
 }
