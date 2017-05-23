@@ -1,3 +1,8 @@
 import marker from './marker';
 
-console.log('Hello world');
+/**
+ * compose the library using the different modules
+ */
+export default {
+  marker: marker
+};
