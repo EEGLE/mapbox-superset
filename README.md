@@ -4,6 +4,10 @@ mapbox super-set is a bunch of functionality used in [eegle.io](https://www.eegl
 
 mapbox super-set works with [mapbog-gl-js](https://www.mapbox.com/mapbox-gl-js/api/).
 
+## Install
+
+From npm : `npm install mapbox-superset`.
+
 ## Build from source
 
 Simply run `npm install && npm run build`. It will use webpack to bundle ES6 javascript.
@@ -14,10 +18,10 @@ We use Jest for testing our code. Run `npm test` to start the test runner.
 
 ## Script
 
-`npm test` : Run the unit tests  
-`npm run build`: bundle the whole library  
-`npm run dev:build`: bundle the whole library including the dev files  
-`npm run dev:watch`: bundle the whole library including the dev files and rebundle on change  
+`npm test` : Run the unit tests
+`npm run build`: bundle the whole library
+`npm run dev:build`: bundle the whole library including the dev files
+`npm run dev:watch`: bundle the whole library including the dev files and rebundle on change
 
 ## Example
 
