@@ -6,4 +6,4 @@ mapbox super-set works with [mapbog-gl-js](https://www.mapbox.com/mapbox-gl-js/a
 
 ## Build from source
 
-Simply run `npm run build`. It will use webpack to bundle es6 javascript to older javascript.
+Simply run `npm install && npm run build`. It will use webpack to bundle es6 javascript to older javascript.
