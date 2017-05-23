@@ -1,6 +1,6 @@
 {
   "name": "mapbox-superset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A bunch of extra functionality for mabox-gl-js.",
   "main": "dist/js/bundle.js",
   "scripts": {
@@ -35,9 +35,9 @@
     "eslint-config-airbnb": "^15.0.1",
     "eslint-loader": "^1.7.1",
     "jest": "^20.0.3",
-    "webpack": "^2.6.0"
+    "webpack": "^2.6.0",
+    "mapbox-gl": "^0.37.0"
   },
   "dependencies": {
-    "mapbox-gl": "^0.37.0"
   }
 }
