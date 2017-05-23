@@ -14,10 +14,10 @@ We use Jest for testing our code. Run `npm test` to start the test runner.
 
 ## Script
 
-`npm test` : Run the unit tests
-`npm run build`: bundle the whole library
-`npm run dev:build`: bundle the whole library including the dev files
-`npm run dev:watch`: bundle the whole library including the dev files and rebundle on change
+`npm test` : Run the unit tests  
+`npm run build`: bundle the whole library  
+`npm run dev:build`: bundle the whole library including the dev files  
+`npm run dev:watch`: bundle the whole library including the dev files and rebundle on change  
 
 ## Example
 
