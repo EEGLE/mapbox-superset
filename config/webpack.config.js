@@ -4,7 +4,7 @@ const compiler = {
   entry: './src/index.js',
 
   output: {
-    path: path.resolve(__dirname, 'dist/js/'),
+    path: path.resolve(__dirname, '../dist/js/'),
     filename: 'bundle.js',
     sourceMapFilename: './bundle.js.map'
   },
@@ -29,4 +29,4 @@ const compiler = {
   }
 }
 
-module.exports = [compiler]
+module.exports = compiler
