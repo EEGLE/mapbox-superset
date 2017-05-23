@@ -10,9 +10,9 @@ const map = new mapboxgl.Map({
 });
 
 map.on('load', () => {
-  const effeilTower = {lng: 2.294694, lat: 48.858093};
+  const eiffelTower = {lng: 2.294694, lat: 48.858093};
 
-  const marker = mapboxSuperset.marker.add(map, effeilTower);
+  const marker = mapboxSuperset.marker.add(map, eiffelTower);
 
   setTimeout(() => {
     mapboxSuperset.marker.remove(map, marker);
