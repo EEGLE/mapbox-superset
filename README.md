@@ -18,9 +18,35 @@ We use Jest for testing our code. Run `npm test` to start the test runner.
 
 ## Script
 
-`npm test` : Run the unit tests  
-`npm run build`: bundle the whole library  
-`npm run watch`: bundle the whole library and recompile on file changed  
+`npm test` : Run the unit tests
+`npm run build`: bundle the whole library
+`npm run watch`: bundle the whole library and recompile on file changed
+
+## Use
+
+mapbox-superset use umd modules, you can use :
+
+```javascript
+import mapboxSuperset from 'mapbox-superset';
+```
+
+or
+
+```javascript
+const mapboxSuperset = require('mapbox-superset');
+```
+
+or directly in the html
+
+```html
+<script src="./node_modules/mapbox-superset/lib/js/mapbox-superset.js"></script>
+```
+
+minified verson
+
+```html
+<script src="./node_modules/mapbox-superset/lib/js/mapbox-superset.min.js"></script>
+```
 
 ## Example
 
