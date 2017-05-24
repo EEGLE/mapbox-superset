@@ -2,12 +2,12 @@
   "name": "mapbox-superset",
   "version": "1.0.7",
   "description": "A bunch of extra functionality for mabox-gl-js.",
-  "main": "./dist/js/bundle.js",
+  "main": "./lib/js/mapbox-superset.js",
   "scripts": {
     "test": "./node_modules/.bin/jest --coverage",
-    "build": "./node_modules/.bin/webpack --progress --config ./config/webpack.config.js",
-    "dev:build": "./node_modules/.bin/webpack --progress --config ./config/webpack.dev.config.js",
-    "dev:watch": "./node_modules/.bin/webpack --progress --watch --config ./config/webpack.dev.config.js"
+    "build": "./node_modules/.bin/webpack --progress",
+    "watch": "./node_modules/.bin/webpack --progress  --watch",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/EEGLE/mapbox-superset#readme",
   "devDependencies": {
-    "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.0.0",
@@ -37,7 +36,6 @@
     "eslint-config-airbnb": "^15.0.1",
     "eslint-loader": "^1.7.1",
     "jest": "^20.0.3",
-    "mapbox-gl": "^0.37.0",
     "webpack": "^2.6.0"
   },
   "dependencies": {}

@@ -1,2 +1,4 @@
 test/
-dev/
+src/
+webpack.config.js
+README.md

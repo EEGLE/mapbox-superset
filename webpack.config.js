@@ -4,11 +4,11 @@ const compiler = {
   entry: './src/index.js',
 
   output: {
-    path: path.resolve(__dirname, '../dist/js/'),
-    filename: 'bundle.js',
+    path: path.resolve(__dirname, '../lib/js/'),
+    filename: 'mapbox-superset.js',
     library: 'mapboxSuperset',
     libraryTarget: 'umd',
-    sourceMapFilename: './bundle.js.map'
+    sourceMapFilename: './mapbox-superset.js.map'
   },
 
   devtool: 'source-map',
