@@ -1,5 +1,5 @@
-const path = require('path')
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const path = require('path');
+const webpack = require('webpack');
 
 const compiler = {
   entry: './src/index.js',
@@ -31,7 +31,9 @@ const compiler = {
     ]
   },
   plugins: [
-    new UglifyJsPlugin()
+    new webpack.optimize.UglifyJsPlugin({
+      minimize: true
+    })
   ]
 }
 
