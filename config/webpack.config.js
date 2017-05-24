@@ -6,8 +6,8 @@ const compiler = {
   output: {
     path: path.resolve(__dirname, '../dist/js/'),
     filename: 'bundle.js',
-    library: 'mapbox-superset',
-    libraryTarget: 'var',
+    library: 'mapboxSuperset',
+    libraryTarget: 'umd',
     sourceMapFilename: './bundle.js.map'
   },
 

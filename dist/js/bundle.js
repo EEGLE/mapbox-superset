@@ -1,5 +1,14 @@
-var mapbox-superset =
-/******/ (function(modules) { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory();
+	else if(typeof define === 'function' && define.amd)
+		define([], factory);
+	else if(typeof exports === 'object')
+		exports["mapboxSuperset"] = factory();
+	else
+		root["mapboxSuperset"] = factory();
+})(this, function() {
+return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -151,6 +160,7 @@ exports.default = {
     map.removeLayer(layerId);
   }
 };
+module.exports = exports['default'];
 
 /***/ }),
 /* 1 */
@@ -198,7 +208,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = {
   marker: _marker2.default
 };
+module.exports = exports['default'];
 
 /***/ })
 /******/ ]);
+});
 //# sourceMappingURL=bundle.js.map
