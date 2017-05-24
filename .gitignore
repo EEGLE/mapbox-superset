@@ -1,3 +1,5 @@
 /node_modules/
 /coverage/
+/lib/js/*.js
+/lib/js/*.map
 
