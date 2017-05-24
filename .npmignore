@@ -2,3 +2,4 @@ test/
 src/
 webpack.config.js
 README.md
+.gitkeep

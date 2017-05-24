@@ -1,6 +1,6 @@
 {
   "name": "mapbox-superset",
-  "version": "1.0.7",
+  "version": "1.0.10",
   "description": "A bunch of extra functionality for mabox-gl-js.",
   "main": "./lib/js/mapbox-superset.js",
   "scripts": {

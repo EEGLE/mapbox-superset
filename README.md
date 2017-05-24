@@ -20,10 +20,11 @@ We use Jest for testing our code. Run `npm test` to start the test runner.
 
 `npm test` : Run the unit tests
 `npm run build`: bundle the whole library
-`npm run dev:build`: bundle the whole library including the dev files
-`npm run dev:watch`: bundle the whole library including the dev files and rebundle on change
+`npm run watch`: bundle the whole library and recompile on file changed
 
 ## Example
+
+Examples can be found [here](https://github.com/EEGLE/mapbox-superset-example)
 
 ### Marker
 
@@ -49,3 +50,9 @@ map.on('load', () => {
   }, 3000);
 });
 ```
+
+## Contribution
+
+Any contribution is welcome !
+
+

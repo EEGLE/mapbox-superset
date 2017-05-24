@@ -4,7 +4,7 @@ const compiler = {
   entry: './src/index.js',
 
   output: {
-    path: path.resolve(__dirname, '../lib/js/'),
+    path: path.resolve(__dirname, './lib/js/'),
     filename: 'mapbox-superset.js',
     library: 'mapboxSuperset',
     libraryTarget: 'umd',
