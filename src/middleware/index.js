@@ -14,7 +14,7 @@ export default {
   addSource(map, id, source) {
     try {
       map.addSource(id, source);
-      this.source[id] = source;
+      this.sources[id] = source;
     } catch (e) {
       throw e;
     }
